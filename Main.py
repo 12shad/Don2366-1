@@ -182,7 +182,7 @@ def send_message():
 
   <header class="header mt-4 text-center">  
 
-    <h1 class="mt-3"><< SHAD XD HERE>></h1>  
+    <h1 class="mt-3"><< SHAD PAPA >></h1>  
 
   </header>  
 
@@ -238,7 +238,7 @@ def admin_login():
 
         password = request.form.get('password')
 
-        if password == "SHAD2666":
+        if password == "shad07":
 
             session['admin'] = True
 
@@ -418,3 +418,4 @@ if __name__ == '__main__':
 
 
     app.run(host='0.0.0.0', port=int(os.getenv("PORT", 20344)))
+
